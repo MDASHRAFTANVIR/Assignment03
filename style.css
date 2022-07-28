@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-img {
+    height: 35rem;
+    filter: brightness(60%);
+}
+
+.e-learning {
+    background-color: rgba(111, 186, 216, 0.192);
+
+}
+
+/*-------- Adding Media Queries  ----------*/
+/*-------- Adding Media Queries  ----------*/
+/*-------- Adding Media Queries  ----------*/
+
+@media screen and (max-width: 576px) {
+    .banner-img {
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .banner-img {
+        height: 22rem;
+    }
+}
